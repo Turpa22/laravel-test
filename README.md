@@ -8,6 +8,7 @@
             'username' => 'test'
             'password' => 'J7gU78Nk9dUi2'
 </p>
+<p align="center">Папка vendor содержит архивы вложенных папок</p>
 <p align="center">Клиентская часть запускается /client/index.php</p>
 <p align="center">Логин: <b>test</b>  Пароль: <b>123456</b></p>
 
