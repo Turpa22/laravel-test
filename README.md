@@ -4,9 +4,9 @@
 <p align="center">Damp базы данных /database/schema.sql</p>
 <p align="center">
 
-            'database' => 'todo_db' <br>
-            'username' => 'test' <br>
-            'password' => 'J7gU78Nk9dUi2' <br><br>    
+            'database' => 'todo_db'
+            'username' => 'test'
+            'password' => 'J7gU78Nk9dUi2'
 </p>
 <p align="center">Клиентская часть запускается /client/index.php</p>
 <p align="center">Логин: <b>test</b>  Пароль: <b>123456</b></p>
