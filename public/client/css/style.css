@@ -1,1 +1,124 @@
+.container.login{
+  /*
+    position: absolute;
+    left: calc(50% - 180px);
+    top: 25%;    
+  */
+  padding-top: 10%!important;
+}
 
+.container.login .col-md-6{
+    max-width: 360px;
+}
+
+.container.login .card {
+    max-width: 360px;
+    box-shadow: 0 0 10px #00000052;
+}
+
+.login .card-header {
+    min-height: 50px;
+    background-color: #252525 !important;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: 20px center;
+    padding-left: 50px;
+    color: #e8e8e8 !important;
+    font-size: 12px;
+}
+
+.login button.btn.btn-primary {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.navbar {
+    min-height: 50px;
+    background-color: #252525 !important;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: 20px center;
+    padding-left: 180px;
+    color: #e8e8e8 !important;
+    box-shadow: 0 0 10px #00000052;
+}
+
+.navbar a{ color: #bcbcbc!important; }
+.navbar a:hover{ color: #f2ff90!important; }
+
+.tasks__container {
+    padding: 20px;
+}
+
+.tasks__container table th{
+    border: 1px solid #cdcdcd;
+    background-color: #f2ff9075;
+    padding: 2px;
+    text-align: center;
+    color: #525152;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.tasks__container table td{
+  border: 1px solid #cdcdcd;
+  padding: 2px 8px;
+  font-size: 13px;
+}
+
+table>tbody>tr:hover>*{
+    background-color: #eeeeee;
+}
+
+.tasks__container table td a svg{
+    width: 22px;
+    opacity: 0.7;
+}
+
+#task_edit label{
+  color: #777;
+  font-size: 15px;
+}
+
+#task_edit input, #task_edit textarea{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#task_edit textarea{ resize: none; }
+
+.task_status{
+  text-align: center;
+  font-size: 12px;
+}
+
+.task_status.status_1{ background-color: #e7e7e7; } /*новая*/
+.task_status.status_2{ background-color: #f3f08f; } /*в работе*/
+.task_status.status_3{ background-color: #a8f9a8; } /*исполенная*/
+.task_status.status_4{ background-color: #f9b2e7; } /*отклонена*/
+.task_status.status_5{ background-color: #f99393; } /*отменена*/
+
+.tasks__msg{
+  padding: 30px;
+}
+
+#waiting {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 60px;
+    background-image: url(loading.gif);
+    margin-left: -40px;
+    margin-top: -30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 99999;
+    opacity: 0.7;
+}
